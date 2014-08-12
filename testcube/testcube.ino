@@ -61,7 +61,7 @@ void mode_move_cube(){
 }
 
 void init_rand_pixel(){ 
-  update_max = 10000;
+  update_max = 2500; //10000
   update_method = &mode_rand_pixel;
   p1.x = random(4);
   p1.y = random(4);
@@ -105,7 +105,7 @@ void mode_rand(){
 }
 
 void init_rain(){
-  update_max = 150000;
+  update_max = 30000;//150000
   update_method = &mode_rain;
 }
 
